@@ -1,0 +1,14 @@
+
+.banner-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.bfi.org.uk/sites/bfi.org.uk/files/fb-images/uncle-boonmee-who-can-recall-his-part-lives-2010-001-people-looking-towards-forest-16x9.jpeg");
+    height: 50%;
+
+    background-position: center;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
