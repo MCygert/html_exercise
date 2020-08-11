@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Lorem Ipsum</title>
-    <link rel="stylesheet" type="text/css" href="src/css/main.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Lorem Ipsum</title>
+  <link rel="stylesheet" type="text/css" href="src/css/main.css" />
+</head>
+
+<body>
+  <header>
     <section class="banner">
       <figure>
         <figcaption class="banner-text">MOVIE BLOG</figcaption>
+
         <img
           src="https://www.bfi.org.uk/sites/bfi.org.uk/files/fb-images/uncle-boonmee-who-can-recall-his-part-lives-2010-001-people-looking-towards-forest-16x9.jpeg"
-          alt="Uncle boonmee"
-          width="100%"
-          height="600"
-        />
+          alt="Uncle boonmee" width="100%" height="600" />
+        <figcaption><a href="src/html/contact.html">Contact</a></figcaption>
       </figure>
       <!-- <div class="banner-image">
         <div class="banner-text">
@@ -22,5 +24,90 @@
         </div> -->
       <!-- </div> -->
     </section>
-  </body>
+  </header>
+  <section id="posts">
+    <ul>
+      <li>
+        <section class="post">
+          <h1>There will be blood</h1>
+          <aside><img src="https://miro.medium.com/max/2560/0*hIJ4UYXTcWd4bnIJ.jpg" width="15%" height="15%">
+          </aside>
+          <p>Writer-director Paul Thomas Anderson steps outside his contemporary world of dysfunctional Angelenos to
+            explore a very different dysfunctional man -- an oil pioneer whose trailblazing spirit is equaled only by
+            his murderous ambition. There Will Be Blood is Anderson's loose adaptation of the novel Oil! by Upton
+            Sinclair, and it focuses its attentions on Daniel Plainview (Daniel Day-Lewis), a miner who happens upon
+            black gold during a disastrous excavation that ends in a broken leg.</p>
+          <a href="src/html/posts/there_will_be_blood.html">Go to full review</a>
+        </section>
+      </li>
+      <li>
+        <section class="post">
+          <h1>The Square</h1>
+          <aside><img
+              src="https://cdn.vox-cdn.com/thumbor/L9Dj26aAq3WQSTfKI0KL6lP_oMo=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9519765/square1.jpg"
+              width="15%" height="15%">
+          </aside>
+          <p>Christian is the respected curator of a contemporary art museum, a divorced but devoted father of two who
+            drives an electric car and supports good causes. His next show is "The Square", an installation which
+            invites passersby to altruism, reminding them of their role as responsible fellow human beings.</p>
+          <a href="src/html/posts/the_square.html">Go to full review</a>
+        </section>
+      </li>
+      <li>
+        <section class="post">
+          <h1>Stalker</h1>
+          <aside><img
+              src="https://i1.wp.com/www.filminquiry.com/wp-content/uploads/2017/05/stalker.jpg?fit=1050%2C700&ssl=1"
+              width="15%" height="15%">
+          </aside>
+          <p>Russian director Andrei Tarkovsky's Stalker, an allegorical science fiction film like his earlier Solaris,
+            was adapted from the novel Picnic by the Roadside by brothers Boris Strugatsky and Arkady Strugatsky. The
+            film follows three men -- the Scientist (Nikolai Grinko), the Writer (Anatoliy Solonitsyn), and the Stalker
+            (Alexander Kaidanovsky) -- as they travel through a mysterious and forbidden territory in the Russian
+            wilderness called the "Zone."</p>
+          <a href="src/html/posts/stalker.html">Go to full review</a>
+        </section>
+      </li>
+      <li>
+        <section class="post">
+          <h1>Lighthouse</h1>
+          <aside><img
+              src="https://a468ba3fc2be117c5560-f9a6225d634730495a59b91d1543c5a4.ssl.cf5.rackcdn.com/_normal/lighthouse-fb-share.jpg"
+              width="15%" height="15%">
+          </aside>
+          <p>From Robert Eggers, the visionary filmmaker behind modern horror masterpiece The Witch, comes this hypnotic
+            and hallucinatory tale of two lighthouse keepers on a remote and mysterious New England island in the 1890s.
+          </p>
+          <a href="src/html/posts/lighthouse.html">Go to full review</a>
+        </section>
+      </li>
+      <li>
+        <section class="post">
+          <h1>Wild Goose Lake</h1>
+          <aside><img
+              src="data:image/jpeg;base64,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"
+              width="15%" height="10%">
+          </aside>
+          <p>The story of Diao Yinan's new film, The Wild Goose Lake, is simple, almost allegorical: a man of the
+            underworld is thrust onto a perilous journey to death to redeem himself. Zhou Zenong (Hu Ge) leads a gang
+            that specializes in stealing motorbikes in the streets of Wuhan</p>
+          <a href="src/html/posts/wild_goose_lake.html">Go to full review</a>
+        </section>
+      </li>
+    </ul>
+
+  </section>
+  <section id="comments">
+
+  </section>
+  <section id="events">
+
+  </section>
+
+  <footer>
+
+  </footer>
+
+</body>
+
 </html>
