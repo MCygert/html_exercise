@@ -28,7 +28,6 @@
   display: inline-flex;
   align-items: center;
   float: left;
-
 }
 
 .comment {
@@ -36,8 +35,12 @@
   border: medium solid black;
 }
 
-
 #events {
   margin-bottom: 45px;
-
+}
+.checked {
+  color: orange;
+}
+.stars {
+  margin-bottom: 20px;
 }
